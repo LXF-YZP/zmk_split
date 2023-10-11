@@ -1,0 +1,29 @@
+# Copyright (c) 2022 Duccio Breschi
+# SPDX-License-Identifier: MIT
+
+config SHIELD_SWOOP_LEFT
+    def_bool $(shields_list_contains,swoop_left)
+
+config SHIELD_SWOOP_RIGHT
+    def_bool $(shields_list_contains,swoop_right)
+
+ ~/qmk_k/split_zmk/c/b/s/swoop  on master  cat Kconfig.defconfig                                                      ✔  at 15:04:35 
+# Copyright (c) 2022 Duccio Breschi
+# SPDX-License-Identifier: MIT
+
+if SHIELD_SWOOP_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Y64"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SWOOP_LEFT || SHIELD_SWOOP_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
