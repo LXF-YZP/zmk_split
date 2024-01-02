@@ -1,6 +1,6 @@
 file_format: "1"
-id: swoop
-name: swoop
+id: kakfa
+name: kafka
 type: shield
 url: https://github.com/jimmerricks/swoop
 requires: [pro_micro]
@@ -11,5 +11,5 @@ features:
   - encoders
   - underglow
 siblings:
-  - swoop_left
-  - swoop_right
+  - kafka_left
+  - kafka_right

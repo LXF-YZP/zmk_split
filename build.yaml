@@ -11,8 +11,8 @@
 
 include:
   - board: nice_nano_v2
-    shield: swoop_left
+    shield: kafka_left
   - board: nice_nano_v2
-    shield: swoop_right
+    shield: kafka_right
   - board: nice_nano_v2
     shield: settings_reset
