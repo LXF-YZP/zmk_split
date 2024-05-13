@@ -196,10 +196,10 @@
         number_layer {
             label = "NUMBER";
             bindings = <
-                        &trans  &none         &kp F10  &kp F11  &kp F12  &none          &none       &kp KP_N7  &kp KP_N8     &kp KP_N9    &kp KP_MINUS  &kp KP_SLASH
-                        &trans  &macro_phone  &kp F7   &kp F8   &kp F9   &none          &none       &kp KP_N4  &kp KP_N5     &kp KP_N6    &kp KP_PLUS   &kp KP_MULTIPLY
-                        &trans  &none         &kp F4   &kp F5   &kp F6   &none          &kp KP_N0   &kp KP_N1  &kp KP_N2     &kp KP_N3    &trans        &kp KP_MINUS
-                        &trans  &none         &kp F1   &kp F2   &kp F3   &none          &trans      &trans     &trans        &trans       &kp ENTER     &kp ENTER
+                        &kp F1        &kp F2         &kp F3  &kp F4  &kp F5      &kp F6      &kp F7  &kp F8   &kp F9   &kp F10   &kp F11  &kp F12
+                        &trans  &kp N1         &kp N2  &kp N3  &kp N4      &kp N5       &kp N6      &kp N7   &kp N8   &kp N9    &kp N0   &kp KP_MULTIPLY
+                        &trans  &macro_phone  &none   &none   &none   &none          &none   &none  &none     &none    &trans        &none
+                        &kp C_VOL_DN  &kp C_VOL_UP         &none  &none   &none   &none          &trans      &trans     &trans        &trans       &none     &none
             >;
         };
 
