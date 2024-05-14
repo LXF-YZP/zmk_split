@@ -189,7 +189,7 @@
                         &lt 2 ESC       &kp Q   &kp W         &kp E         &kp R      &kp T                 &kp Y          &kp U          &kp I      &kp O      &kp P     &lt 2 EQUAL
                         &kp TAB         &kp A   &kp S         &kp D         &kp F      &kp G                 &kp H          &kp J          &kp K      &kp L      &kp SEMI  &kp SQT
                         &kp LEFT_SHIFT  &kp Z   &kp X         &kp C         &kp V      &kp B                 &kp N          &kp M          &kp COMMA  &kp DOT    &kp FSLH  &kp LSHFT
-                        &kp LCTRL &kp LEFT_ALT  &kp LEFT  &kp RIGHT      &mt LGUI RETURN &mo NUMBER       &kp SPACE     &kp BACKSPACE   &mo SYMBOL &mo HOTKEY  &kp LBKT   &kp RBKT 
+                        &kp LCTRL &kp LEFT_ALT  &kp LEFT  &kp RIGHT      &mt LGUI RETURN &mo NUMBER       &kp BACKSPACE  &kp SPACE        &mo SYMBOL &mo HOTKEY  &kp LBKT   &kp RBKT 
             >;
         };
 
